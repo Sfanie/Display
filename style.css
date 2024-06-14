@@ -1,0 +1,55 @@
+
+/* selector de tipo(etiqueta) */
+
+body {
+    /* Regla de css*/
+
+    /* Propiedad: valor*/
+    background-color: #eadaf5;
+}
+
+
+
+/* Selector de clase(class)
+=> .nombreClase {} */
+
+.ejemplo {
+    height: 250px;
+    width: 500px;
+    background-color: #c6f8f3;
+}
+
+.displayBlock{
+    display: block;
+    background-color: pink;
+}
+
+.displayBlockConTamanio{
+    display: block;
+    background-color: pink;
+
+    width: 100px;
+    height: 100px;
+}
+
+.displayInline{
+    display: inline;
+    background-color: orange;
+}
+
+
+.displayInlineConTamanio{
+    display: inline;
+    background-color: orange;
+
+    width: 100px;
+    height: 100px;
+}
+
+.displayInlineBlock{
+    display: inline-block;
+    background-color: rgb(170, 0, 255);
+
+    width: 100px;
+    height: 100px;
+}
