@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Etiqueta semántica-->
+    <!--Header: Etiqueta semántica para la cabecera de contenido.-->
+    <header> 
+
+    </header>
+    <!--Main: Etiqueta semántica para el contenido principal-->
+    <main>
+        <h1>
+            Display: Lo que mostramos en nuestra pantalla.
+        </h1>
+        <article>
+            <h2>Display None</h2>
+            <p>Este tipo de display es especial, porque nos permite dejar de visualizar contenido dentro de mi sitio.</p>
+            <p>Cuando ocupamos un display none, las etiquetas dejan de verse, pero sigue el código ahí.</p>
+        </article>
+        <article id="displayBlock">
+            <h2>Display Block</h2>
+            <p>
+                El elemento genera un cuadro de elemento de bloque.
+            </p>
+            <p> 
+                Significa que mi bloque(recuerda que todo en HTML es un bloque), ocupa todo el espacio disponible de izqueirda a derecha, o dicho de otra forma, todo el renglón dentro del componente padre.
+            </p>
+            <figure class="ejemplo">
+                <h1 class="displayBlock"> 
+                    h1
+
+                </h1>
+            </figure>
+        </article>
+        <article id="displayInline">
+            <h2>Display Inline</h2>
+            <p>
+                El elemento genera uno o más cuadros de elemento en línea. Si tú le pones tamaño a un display block, funciona, pero sigue ocupando todo el renglón.
+            </p>
+            <p> 
+                Significa que el contenedor o bloque se adapta al ancho de su contenido hij@.
+            </p>
+            <figure class="ejemplo">
+                <h1 class="displayInline">
+                    h1
+                </h1>
+            </figure>
+        </article>
+    
+        <article id="displayInlineBlock">
+            <h2>Display Inline-Block</h2>
+            <p>
+                Si tú le pones tamaño a un display block, funciona, pero sigue ocupando todo el renglón.
+            </p>
+            <figure class="ejemplo">
+                <h1 class="displayBlockConTamanio">
+                    h1
+                </h1>
+                <h1 class="displayBlockConTamanio">
+                    h1
+                </h1>
+            </figure>
+<p>
+                Si tú le pones tamaño a un display inline, ignora las propiedades de alto(height) y ancho(width).
+            </p>
+            <figure class="ejemplo">
+                <h1 class="displayInlineConTamanio">
+                    h1
+                </h1>
+                <h1 class="displayInlineConTamanio">
+                    h1
+                </h1>
+            </figure>
+<p>
+                Esto puede ser problemático si yo quiero controlar el tamaño de mi componente, y que el contenido esté en la misma linea, para eso existe el display inline block.
+            </p>
+            <figure class="ejemplo">
+                <h1 class="displayInlineBlock"
+                >
+                    h1
+                </h1>
+                <h1 class="displayInlineBlock"
+                >
+                    h1
+                </h1>
+            </figure>
+        </article>
+
+    </main>
+    <!--Footer: Etiqueta semántica para el pie de página-->
+    <footer>
+
+    </footer>
+</body>
+
+</html>
